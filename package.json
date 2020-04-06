@@ -1,0 +1,18 @@
+{
+  "name": "webpack-dep-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "some_external_dep_webpack_doesnt_know_about_due_to_external_tooling.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  }
+}
